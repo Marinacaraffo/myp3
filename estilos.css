@@ -1,0 +1,233 @@
+body{
+    background-image: url("image background.jpg");
+	background-size: cover;
+	color: #b6b6b6;
+	justify-content: center;
+}
+h1{
+	font-family: 'HBO Max', sans-serif;
+	font-size: 80px;
+	display: inline;
+	text-align: center;
+}
+h2{
+	font-family: 'HBO Max', sans-serif;
+}
+.icons{
+	font-size: 30px;
+}
+
+.contenedor-img-princ{
+	position: absolute;
+	left: 0%;
+	right: 0%;
+}
+.img-princ{
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+	width:27%;
+	height:100%;
+	display: flex;
+	align-content: flex-end;
+	justify-content: flex-end;
+	
+}
+.container-galeria{
+	align-content: center;
+	height: 100px;
+	width: 100%;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+}
+.arrow-bar-left{
+	position: absolute;
+	right:0%;
+	color:white;
+	align-items: right;
+}
+.card{
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: transparent;
+	color: white;
+	text-decoration: underline;
+}
+.galeria{
+	display: flex;
+}
+.text{
+	writing-mode: vertical-lr;
+	transform: rotate(180deg);
+	transform-origin: center;
+	white-space: nowrap;
+}
+.nav{
+	display: flex;
+	margin: 1%;
+	justify-content: end;
+}
+	
+hr{
+	font-size: 100px;
+	
+}
+.recom{
+	color: white;
+	margin-left: 5%;
+	
+}
+.contenedor-recom{
+	display: block;
+	margin-bottom:10px;
+	
+}
+.rounded-circle{
+	width: 64%;
+	margin: 5%;
+}
+
+.row{
+	display: flex;
+	flex-direction: column;
+	background: rgb(60, 50, 180, 0.6);
+	margin-top: 100px;
+	margin-bottom: 200px;
+	height: 300px;
+	width: 100rem;
+	
+	
+}
+
+.avatares{
+	grid-template-columns: repeat(6);
+	display: flex;
+	margin-top: 10px;
+	flex-direction: row;
+	
+}
+.avatar-5{
+	height: 200px;
+	width: 200px; 
+	margin-left: 40px;
+	margin-right: 30px;
+	margin-top: 15px;
+	transition: transform.3s;
+	flex-direction:row;
+	 
+}
+.avatar-1{
+	height: 200px;
+	width: 200px;
+	margin-left: 40px;
+	margin-right: 30px;
+	margin-top: 15px;
+	transition: transform.3s;
+	flex-direction:row;
+	
+}
+.avatar-2{
+	height: 200px;
+	width: 200px;
+	margin-left: 40px;
+	margin-right: 30px;
+	margin-top: 15px;
+	transition: transform.3s;
+	flex-direction:row;
+	
+	
+}
+.avatar-3{
+	height: 200px;
+	width: 200px;
+	margin-right: 40px;
+	margin-left: 30px;
+	margin-top: 15px;
+	transition: transform.3s;
+	flex-direction:row;
+	
+}
+.avatar-4{
+	height: 200px;
+	width: 200px;
+	margin-right: 40px;
+	margin-left: 30px;
+	margin-top: 15px;
+	transition: transform.3s;
+	flex-direction:row;
+	
+}
+
+.avatar-4:hover{
+	transform: scale(1.2)
+}
+.avatar-5:hover{
+	transform: scale(1.2)
+}
+.avatar-3:hover{
+	transform: scale(1.2)
+}
+.avatar-1:hover{
+	transform: scale(1.2)
+}
+.avatar-2:hover{
+	transform: scale(1.2)
+}
+.box-1:hover{
+	box-shadow: 0 0 5px cyan,
+	0 0 25px, 0 0 50px,
+	0 0 100px cyan, 0 0 200px cyan;
+	opacity: 80%;
+}
+.box-2:hover{
+	box-shadow: 0 0 5px cyan,
+	0 0 25px, 0 0 50px,
+	0 0 100px cyan, 0 0 200px cyan;
+}
+.box-3:hover{
+	box-shadow: 0 0 5px cyan,
+	0 0 25px, 0 0 50px,
+	0 0 100px cyan, 0 0 200px cyan;
+}
+.box-4:hover{
+	box-shadow: 0 0 5px cyan,
+	0 0 25px, 0 0 50px,
+	0 0 100px cyan, 0 0 200px cyan;
+}
+.box-5:hover{
+	box-shadow: 0 0 5px cyan,
+	0 0 25px, 0 0 50px,
+	0 0 100px cyan, 0 0 200px cyan; 
+}
+
+
+.images {
+	object-fit: cover;
+	height: 100%;
+}
+
+
+.logo{
+	width: 200px;
+	height: 100px;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
